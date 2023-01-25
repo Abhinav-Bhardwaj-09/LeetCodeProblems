@@ -146,18 +146,71 @@ _Note:_
 <br/>
 <br/>
 
+# Problem No. 584
+
+# Table
+    Customer:
+                +-------------+---------+
+                | Column Name | Type    |
+                +-------------+---------+
+                | id          | int     |
+                | name        | varchar |
+                | referee_id  | int     |
+                +-------------+---------+
+
+    id is the primary key column for this table.
+    Each row of this table indicates the id of a customer, their name, and the id of the customer who referred them.
+
+<br/>
+
+    Write an SQL query to report the names of the customer that are not referred by the customer with id = 2.
+
+    Return the result table in any order.
+
+
+
+## Example 1:
+
+    Input: 
+
+        Customer table:
+            +----+------+------------+
+            | id | name | referee_id |
+            +----+------+------------+
+            | 1  | Will | null       |
+            | 2  | Jane | null       |
+            | 3  | Alex | 2          |
+            | 4  | Bill | null       |
+            | 5  | Zack | 1          |
+            | 6  | Mark | 2          |
+            +----+------+------------+
+
+    Output:
+            +------+
+            | name |
+            +------+
+            | Will |
+            | Jane |
+            | Bill |
+            | Zack |
+            +------+
+
+<br/>
+<br/>
+
 # Problem No. 595
 
 # Table
-    +-------------+---------+
-    | Column Name | Type    |
-    +-------------+---------+
-    | name        | varchar |
-    | continent   | varchar |
-    | area        | int     |
-    | population  | int     |
-    | gdp         | int     |
-    +-------------+---------+
+    World:
+            +-------------+---------+
+            | Column Name | Type    |
+            +-------------+---------+
+            | name        | varchar |
+            | continent   | varchar |
+            | area        | int     |
+            | population  | int     |
+            | gdp         | int     |
+            +-------------+---------+
 
     name is the primary key column for this table.
     Each row of this table gives information about the name of a country, the continent to which it belongs, its area, the population, and its GDP value.
@@ -394,14 +447,15 @@ _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
 # Problem No. 1741
 
 # Table
-    +-------------+------+
-    | Column Name | Type |
-    +-------------+------+
-    | emp_id      | int  |
-    | event_day   | date |
-    | in_time     | int  |
-    | out_time    | int  |
-    +-------------+------+
+    Employees:
+                +-------------+------+
+                | Column Name | Type |
+                +-------------+------+
+                | emp_id      | int  |
+                | event_day   | date |
+                | in_time     | int  |
+                | out_time    | int  |
+                +-------------+------+
 
     (emp_id, event_day, in_time) is the primary key of this table.
     The table shows the employees' entries and exits in an office.
@@ -451,13 +505,14 @@ _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
 # Problem No. 1757
 
 # Table
-    +-------------+---------+
-    | Column Name | Type    |
-    +-------------+---------+
-    | product_id  | int     |
-    | low_fats    | enum    |
-    | recyclable  | enum    |
-    +-------------+---------+
+    Products: 
+            +-------------+---------+
+            | Column Name | Type    |
+            +-------------+---------+
+            | product_id  | int     |
+            | low_fats    | enum    |
+            | recyclable  | enum    |
+            +-------------+---------+
 
     product_id is the primary key for this table.
     low_fats is an ENUM of type ('Y', 'N') where 'Y' means this product is low fat and 'N' means it is not.
