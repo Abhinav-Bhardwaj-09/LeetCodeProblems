@@ -1,0 +1,1 @@
+SELECT U.user_id AS buyer_id, U.join_date, IFNULL(COUNT(order_date), 0) AS orders_in_2019 FROM Users U LEFT JOIN Orders O ON U.user_id = O.buyer_id AND order_date LIKE '2019%' GROUP BY U.user_id;
