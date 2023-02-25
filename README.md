@@ -527,7 +527,7 @@ _Note:_
 <br/>
 <br/>
 
-# Problem No. 202
+# [Problem No. 202](src/HappyNumber)
      Write an algorithm to determine if a number n is happy.
 
 A happy number is a number defined by the following process:
@@ -556,7 +556,7 @@ _Return true if n is a happy number, and false if not._
 <br/>
 <br/>
 
-# Problem No. 217
+# [Problem No. 217](src/ContainsDuplicate)
     Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
 
@@ -580,7 +580,29 @@ _Return true if n is a happy number, and false if not._
 <br/>
 <br/>
 
-# Problem No. 258
+# [Problem No. 242](src/ValidAnagram)
+    Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+
+    An Anagram is a word or phrase formed by rearranging the letters of a different word 
+    or phrase, typically using all the original letters exactly once.
+
+
+
+## Example 1:
+
+    Input: s = "anagram", t = "nagaram"
+    Output: true
+
+
+## Example 2:
+
+    Input: s = "rat", t = "car"
+    Output: false
+
+<br/>
+<br/>
+
+# [Problem No. 258](src/AddDigits)
      Given an integer num, repeatedly add all its digits until the result has only one digit, and return it.
 
 
@@ -601,7 +623,7 @@ _Return true if n is a happy number, and false if not._
 <br/>
 <br/>
 
-# Problem No. 502
+# [Problem No. 502](src/IPO)
 
     Suppose LeetCode will start its IPO soon. In order to sell a good price of its shares to Venture Capital, LeetCode would like to work on 
     some projects to increase its capital before the IPO. Since it has limited resources, it can only finish at most k distinct projects before 
@@ -637,7 +659,7 @@ _Return true if n is a happy number, and false if not._
 <br/>
 <br/>
 
-# Problem No. 511
+# [Problem No. 511](src/GamePlayAnalysis_I)
 
 # Table
     Activity:
@@ -688,7 +710,7 @@ _Return true if n is a happy number, and false if not._
 <br/>
 <br/>
 
-# Problem No. 540
+# [Problem No. 540](src/SingleElementInSortedArray)
     You are given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once.
 
     Return the single element that appears only once.
@@ -708,7 +730,7 @@ _Return true if n is a happy number, and false if not._
 <br/>
 <br/>
 
-# Problem No. 584
+# [Problem No. 584](src/FindCustomerReferee)
 
 # Table
     Customer:
@@ -760,7 +782,7 @@ _Return true if n is a happy number, and false if not._
 <br/>
 <br/>
 
-# Problem No. 586
+# [Problem No. 586](src/CustomerPlacingTheLargestNumberOfOrders)
 
 # Table
     Orders:
@@ -808,7 +830,7 @@ _Return true if n is a happy number, and false if not._
 <br/>
 <br/>
 
-# Problem No. 595
+# [Problem No. 595](src/BigCountries)
 
 # Table
     World:
@@ -862,7 +884,7 @@ Write an SQL query to report the name, population, and area of the big countries
 <br/>
 <br/>
 
-# Problem No. 607
+# [Problem No. 607](src/SalesPerson)
 
 # Table
 
@@ -1057,7 +1079,7 @@ Each node in the tree can be one of three types:
 <br/>
 <br/>
 
-# Problem No. 627
+# [Problem No. 627](src/SwapSalary)
 
 # Table
     Salary
@@ -1112,7 +1134,7 @@ _Note that you must write a single update statement, do not write any select sta
 <br/>
 <br/>
 
-# Problem No. 771
+# [Problem No. 771](src/JewelsAndStones)
     You're given strings jewels representing the types of stones that are jewels, and stones representing the stones you have. Each character in stones is a type of stone you have. You want to know how many of the stones you have are also jewels.
 
     Letters are case sensitive, so "a" is considered a different type of stone from "A".
@@ -1132,7 +1154,7 @@ _Note that you must write a single update statement, do not write any select sta
 <br/>
 <br/>
 
-# Problem No. 832
+# [Problem No. 832](src/FlippingAnImage)
     Given an n x n binary matrix image, flip the image horizontally, then invert it, and return the resulting image.
 <br />
 
@@ -1163,7 +1185,7 @@ _Note that you must write a single update statement, do not write any select sta
 <br/>
 <br/>
 
-# Problem No. 976
+# [Problem No. 976](src/LargestPerimeterTriangle)
      Given an integer array nums, return the largest perimeter of a triangle with a non-zero area, formed from three of these lengths. If it is impossible to form any triangle of a non-zero area, return 0.
 
 
@@ -1185,7 +1207,7 @@ _Note that you must write a single update statement, do not write any select sta
 <br/>
 <br/>
 
-# Problem No. 1011
+# [Problem No. 1011](src/CapacityToShipPackagesWithinD_Days)
 
     A conveyor belt has packages that must be shipped from one port to another within days days.
 
@@ -1229,7 +1251,7 @@ _Note that you must write a single update statement, do not write any select sta
 <br/>
 <br/>
 
-# Problem No. 1050
+# [Problem No. 1050](src/ActorsAndDirectorsWhoCooperatedAtLeastThreeTimes)
 
 # Table
     ActorDirector:
@@ -1278,7 +1300,7 @@ _Note that you must write a single update statement, do not write any select sta
 <br/>
 <br/>
 
-# Problem No. 1084
+# [Problem No. 1084](src/SalesAnalysis_III)
 
 # Table
 
@@ -1362,7 +1384,7 @@ _Note that you must write a single update statement, do not write any select sta
 <br/>
 <br/>
 
-# Problem No. 1141
+# [Problem No. 1141](src/UserActivityForThePast30Days_I)
 
 # Table
 
@@ -1423,7 +1445,7 @@ _Note that you must write a single update statement, do not write any select sta
 <br/>
 <br/>
 
-# Problem No. 1148
+# [Problem No. 1148](src/ArticleViews_I)
 
 # Table
     Views:
@@ -1476,7 +1498,7 @@ _Note that you must write a single update statement, do not write any select sta
 <br/>
 <br/>
 
-# Problem No. 1158
+# [Problem No. 1158](src/MarketAnalysis_I)
 
 # Table
 
@@ -1580,7 +1602,7 @@ _Note that you must write a single update statement, do not write any select sta
 <br/>
 <br/>
 
-# Problem No. 1232
+# [Problem No. 1232](src/CheckIfItIsStraightLine)
     You are given an array coordinates, coordinates[i] = [x, y], where [x, y] represents the coordinate of a point.
     Check if these points make a straight line in the XY plane.
 
@@ -1602,7 +1624,7 @@ _Note that you must write a single update statement, do not write any select sta
 <br/>
 <br/>
 
-# Problem No. 1281
+# [Problem No. 1281](src/SubtractTheProductAndSumOfDigitsOfAnInteger)
     Given an integer number n, return the difference between the product of its digits and the sum of its digits.
 
 ## Example 1:
@@ -1624,7 +1646,7 @@ _Note that you must write a single update statement, do not write any select sta
 <br/>
 <br/>
 
-# Problem No. 1393
+# [Problem No. 1393](src/CapitalGainOrLoss)
 
 # Table
 
@@ -1691,7 +1713,7 @@ _Note that you must write a single update statement, do not write any select sta
 <br/>
 <br/>
 
-# Problem No. 1407
+# [Problem No. 1407](src/TopTravellers)
 
 # Table
 
@@ -1786,7 +1808,7 @@ _Note that you must write a single update statement, do not write any select sta
 
 
 
-# Problem No. 1470
+# [Problem No. 1470](src/ShuffleTheArray)
      Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn].
 
 _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
@@ -1812,7 +1834,7 @@ _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
 <br/>
 <br/>
 
-# Problem No. 1480
+# [Problem No. 1480](src/RunningSumOf1dArray)
      Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]). Return the running sum of nums.
 
 
@@ -1831,7 +1853,7 @@ _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
 <br />
 <br />
 
-# Problem No. 1484
+# [Problem No. 1484](src/GroupSoldProductsByTheDate)
 
 # Table
     Activities:
@@ -1886,7 +1908,7 @@ _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
 <br/>
 <br/>
 
-# Problem No. 1491
+# [Problem No. 1491](src/AverageSalaryExcludingTheMinimumAndMaximumSalary)
     You are given an array of unique integers salary where salary[i] is the salary of the ith employee.
 
     Return the average salary of employees excluding the minimum and maximum salary.
