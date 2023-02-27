@@ -1009,6 +1009,30 @@ Implement the NumArray class:
 <br/>
 <br/>
 
+# [Problem No. 589](src/N_aryTreePreOrderTraversal)
+    Given the root of an n-ary tree, return the preorder traversal of its nodes' values.
+
+    Nary-Tree input serialization is represented in their level order traversal. Each group of children is separated by the null value (See examples)
+
+
+
+
+## Example 1:
+![img1.png](img1.png)
+
+    Input: root = [1,null,3,2,4,null,5,6]
+    Output: [1,3,5,6,2,4]
+
+## Example 2:
+![img2.png](img2.png)
+
+    Input: root = [1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14]
+    Output: [1,2,3,6,7,11,14,4,8,12,5,9,13,10]
+
+
+<br/>
+<br/>
+
 # [Problem No. 595](src/BigCountries)
 
 # Table
@@ -1309,6 +1333,28 @@ _Note that you must write a single update statement, do not write any select sta
 
     Explanation: (1, A) and (3, C) were changed from 'm' to 'f'.
                  (2, B) and (4, D) were changed from 'f' to 'm'.
+
+<br/>
+<br/>
+
+# [Problem No. 709](src/ToLowerCase)
+    Given a string s, return the string after replacing every uppercase letter with the same lowercase letter.
+
+
+## Example 1:
+
+    Input: s = "Hello"
+    Output: "hello"
+
+## Example 2:
+
+    Input: s = "here"
+    Output: "here"
+
+## Example 3:
+
+    Input: s = "LOVELY"
+    Output: "lovely"
 
 <br/>
 <br/>
