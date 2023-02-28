@@ -1018,13 +1018,13 @@ Implement the NumArray class:
 
 
 ## Example 1:
-![img1.png](img1.png)
+![img1.png](src/N_aryTreePreOrderTraversal/img1.png)
 
     Input: root = [1,null,3,2,4,null,5,6]
     Output: [1,3,5,6,2,4]
 
 ## Example 2:
-![img2.png](img2.png)
+![img2.png](src/N_aryTreePreOrderTraversal/img2.png)
 
     Input: root = [1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14]
     Output: [1,2,3,6,7,11,14,4,8,12,5,9,13,10]
@@ -1406,6 +1406,31 @@ _Note that you must write a single update statement, do not write any select sta
     Output: [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]
     Explanation: First reverse each row: [[0,0,1,1],[1,0,0,1],[1,1,1,0],[0,1,0,1]].
                  Then, invert the image: [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]
+
+<br/>
+<br/>
+
+# [Problem No. 876](src/MiddleOfTheLinkedList)
+    Given the head of a singly linked list, return the middle node of the linked list.
+
+    If there are two middle nodes, return the second middle node.
+
+
+## Example 1:
+
+![img1.jpeg](src/MiddleOfTheLinkedList/img1.jpeg)
+
+    Input: head = [1,2,3,4,5]
+    Output: [3,4,5]
+    Explanation: The middle node of the list is node 3.
+
+## Example 2:
+
+![img2.jpeg](src/MiddleOfTheLinkedList/img2.jpeg)
+
+    Input: head = [1,2,3,4,5,6]
+    Output: [4,5,6]
+    Explaination: Since the list has two middle nodes with values 3 and 4, we return the second one.
 
 <br/>
 <br/>
