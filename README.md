@@ -1896,6 +1896,33 @@ _Note that you must write a single update statement, do not write any select sta
 <br/>
 <br/>
 
+# [Problem No. 1309](src/DecryptStringFromAlphabetToIntegerMapping)
+    You are given a string s formed by digits and '#'. We want to map s to English lowercase characters as follows:
+
+- Characters ('a' to 'i') are represented by ('1' to '9') respectively.
+- Characters ('j' to 'z') are represented by ('10#' to '26#') respectively.
+
+_Return the string formed after mapping._
+
+The test cases are generated so that a unique mapping will always exist.
+
+
+
+
+## Example 1:
+
+    Input: s = "10#11#12"
+    Output: "jkab"
+    Explanation: "j" -> "10#" , "k" -> "11#" , "a" -> "1" , "b" -> "2".
+
+## Example 2:
+
+    Input: s = "1326#"
+    Output: "acz"
+
+<br/>
+<br/>
+
 # [Problem No. 1393](src/CapitalGainOrLoss)
 
 # Table
@@ -2181,7 +2208,7 @@ _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
 <br/>
 <br/>
 
-# Problem No. 1502
+# [Problem No. 1502](src/CanMakeArithmeticProgressionFromSequence)
     A sequence of numbers is called an arithmetic progression if the difference between any two consecutive elements is the same.
 
     Given an array of numbers arr, return true if the array can be rearranged to form an arithmetic progression. Otherwise, return false.
@@ -2203,7 +2230,7 @@ _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
 
 
 
-# Problem No. 1512
+# [Problem No. 1512](src/NumberOfGoodPairs)
     Given an array of integers nums, return the number of good pairs.
 
     A pair (i, j) is called good if nums[i] == nums[j] and i < j.
@@ -2229,7 +2256,7 @@ _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
 <br/>
 <br/>
 
-# Problem No. 1523
+# [Problem No. 1523](src/CountOddNumbersInAnIntervalRange)
     Given two non-negative integers low and high. Return the count of odd numbers between low and high (inclusive).
 
 
@@ -2250,7 +2277,7 @@ _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
 <br/>
 <br/>
 
-# Problem No. 1527
+# [Problem No. 1527](src/PatientsWithCondition)
 
 # Table
     Patients:
@@ -2301,7 +2328,7 @@ _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
 <br/>
 <br/>
 
-# Problem No. 1581
+# [Problem No. 1581](src/CustomerWhoVisitedButDidNotMakeAnyTransactions)
 
 # Table
     Visits:
@@ -2385,7 +2412,7 @@ _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
 <br/>
 <br/>
 
-# Problem No. 1587
+# [Problem No. 1587](src/BankAccountSummary_II)
 
 # Table
 
@@ -2470,7 +2497,7 @@ _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
 <br/>
 <br/>
 
-# Problem No. 1588
+# [Problem No. 1588](src/SumOfAllOddLengthSubarrays)
     Given an array of positive integers arr, return the sum of all possible odd-length subarrays of arr.
 
     A subarray is a contiguous subsequence of the array.
@@ -2508,7 +2535,7 @@ _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
 <br/>
 <br/>
 
-# Problem No. 1667
+# [Problem No. 1667](src/FixNamesInTable)
 
 # Table
     Users:
@@ -2553,7 +2580,7 @@ _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
 <br/>
 <br/>
 
-# Problem No. 1693
+# [Problem No. 1693](src/DailyLeadsAndPartners)
 
 # Table
 
@@ -2620,7 +2647,7 @@ _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
 <br/>
 <br/>
 
-# Problem No. 1729
+# [Problem No. 1729](src/FindFollowersCount)
 
 # Table
 
@@ -2674,7 +2701,7 @@ _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
 <br/>
 <br/>
 
-# Problem No. 1741
+# [Problem No. 1741](src/FindTotalTimeSpentByEachEmployee)
 
 # Table
     Employees:
@@ -2732,7 +2759,7 @@ _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
 <br/>
 <br/>
 
-# Problem No. 1757
+# [Problem No. 1757](src/RecyclableAndLowFatProducts)
 
 # Table
     Products: 
@@ -2783,7 +2810,7 @@ _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
 <br/>
 <br/>
 
-# Problem No. 1795
+# [Problem No. 1795](src/RearrangeProductsTable)
 
 # Table
     Products:
@@ -2836,7 +2863,7 @@ _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
 <br/>
 <br/>
 
-# Problem No. 1822
+# [Problem No. 1822](src/SignOfTheProductOfAnArray)
     There is a function signFunc(x) that returns:
 
 -   1 if x is positive.
@@ -2869,7 +2896,7 @@ Return signFunc(product).
 <br/>
 <br/>
 
-# Problem No. 1873
+# [Problem No. 1873](src/CalculateSpecialBonus)
 
 # Table
     Employees: 
@@ -2925,7 +2952,7 @@ Return signFunc(product).
 <br/>
 <br/>
 
-# Problem No. 1890
+# [Problem No. 1890](src/TheLatestLoginIn2020)
 
 # Table
 
@@ -2985,7 +3012,7 @@ Return signFunc(product).
 <br/>
 <br/>
 
-# Problem No. 1929
+# [Problem No. 1929](src/ConcatenationOfArray)
      Given an integer array nums of length n, you want to create an array ans of length 2n where ans[i] == nums[i] and ans[i + n] == nums[i] for 0 <= i < n (0-indexed).
 
      Specifically, ans is the concatenation of two nums arrays.
@@ -3012,7 +3039,7 @@ Return signFunc(product).
 <br/>
 <br/>
 
-# Problem No. 1965
+# [Problem No. 1965](src/EmployeesWithMissingInformation)
 
 # Table
     Employees:
@@ -3084,7 +3111,7 @@ Return the result table ordered by employee_id in ascending order.
 <br/>
 
 
-# Problem No. 2011
+# [Problem No. 2011](src/FinalValueOfVariableAfterPerformingOperations)
      There is a programming language with only four operations and one variable X:
 
 -    ++X and X++ increments the value of the variable X by 1.
@@ -3129,7 +3156,7 @@ Return the result table ordered by employee_id in ascending order.
 <br/>
 
 
-# Problem No. 2235
+# [Problem No. 2235](src/AddTwoIntegers)
      Given two integers num1 and num2, return the sum of the two integers.
 
 
@@ -3148,7 +3175,7 @@ Return the result table ordered by employee_id in ascending order.
 <br/>
 <br/>
 
-# Problem No. 2413
+# [Problem No. 2413](src/SmallestEvenMultiple)
      Given a positive integer n, return the smallest positive integer that is a multiple of both 2 and n.
 
 
@@ -3167,7 +3194,7 @@ Return the result table ordered by employee_id in ascending order.
 <br/>
 <br/>
 
-# Problem No. 2469
+# [Problem No. 2469](src/ConvertTheTemperature)
     You are given a non-negative floating point number rounded to two decimal places celsius, that denotes the temperature in Celsius.
 
     
@@ -3197,7 +3224,7 @@ _Note that:_
 <br/>
 <br/>
 
-# Problem No. 2535
+# [Problem No. 2535](src/DifferenceBetweenElementSumAndDigitSumOfAnArray)
     You are given a positive integer array nums.
 
     * The element sum is the sum of all the elements in nums.
