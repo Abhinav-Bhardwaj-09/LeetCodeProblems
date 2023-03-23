@@ -122,6 +122,37 @@
 <br/>
 <br/>
 
+# [Problem No. 62](src/UniquePaths)
+    There is a robot on an m x n grid. The robot is initially located at the top-left corner (i.e., grid[0][0]). The robot tries to move to the bottom-right corner (i.e., grid[m - 1][n - 1]). The robot can only move either down or right at any point in time.
+
+    Given the two integers m and n, return the number of possible unique paths that the robot can take to reach the bottom-right corner.
+
+    The test cases are generated so that the answer will be less than or equal to 2 * 109.
+
+
+
+
+
+## Example 1:
+
+![img1.png](src/UniquePaths/img1.png)
+
+    Input: m = 3, n = 7
+    Output: 28
+
+
+## Example 2:
+
+    Input: m = 3, n = 2
+    Output: 3
+    Explanation: From the top-left corner, there are a total of 3 ways to reach the bottom-right corner:
+                         1. Right -> Down -> Down
+                         2. Down -> Down -> Right
+                         3. Down -> Right -> Down
+
+<br/>
+<br/>
+
 # [Problem No. 66](src/PlusOne)
     You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
 
@@ -2418,7 +2449,7 @@ _Return the array in the form [x1,y1,x2,y2,...,xn,yn]._
 
 ## Example 1:
 
-![img1.png](img1.png)
+![img1.png](src/MatrixDiagonalSum/img1.png)
 
     Input: mat = [[1,2,3],
                   [4,5,6],
