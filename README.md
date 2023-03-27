@@ -122,6 +122,33 @@
 <br/>
 <br/>
 
+# [Problem No. 58](src/LengthOfLastWord)
+    Given a string s consisting of words and spaces, return the length of the last word in the string.
+
+    A word is a maximal substring consisting of non-space characters only.
+
+
+## Example 1:
+
+    Input: s = "Hello World"
+    Output: 5
+    Explanation: The last word is "World" with length 5.
+
+## Example 2:
+
+    Input: s = "   fly me   to   the moon  "
+    Output: 4
+    Explanation: The last word is "moon" with length 4.
+
+## Example 3:
+
+    Input: s = "luffy is still joyboy"
+    Output: 6
+    Explanation: The last word is "joyboy" with length 6.
+
+<br/>
+<br/>
+
 # [Problem No. 62](src/UniquePaths)
     There is a robot on an m x n grid. The robot is initially located at the top-left corner (i.e., grid[0][0]). The robot tries to move to the bottom-right corner (i.e., grid[m - 1][n - 1]). The robot can only move either down or right at any point in time.
 
