@@ -1,28 +1,35 @@
 package LengthOfLastWord;
 
-/**
- * Created by IntelliJ IDEA
- * User: Abhinav Bhardwaj
- * Date: 27/03/23
- * Time: 20:47
- */
+// Created by Abhinav Bhardwaj on 27/03/2023 20:47 using IntelliJ IDEA
 
 public class Solution {
-    public int lengthOfLastWord(String s) {
-        int sLength = s.length(), wordLength = 0;
+  public int lengthOfLastWord(String s) {
+    int indexOfLastWord = s.trim().lastIndexOf(' ');
 
-        for (int index = sLength - 1; index >= 0; index--) {
-            char c = s.charAt(index);
+    return ((s.trim().length()) - 1) - indexOfLastWord;
+  }
 
-            if ( c == ' ' && wordLength != 0) {
-                return wordLength;
-            }
+  public int lengthOfLastWord1(String s) {
+    int sLength = s.length(), wordLength = 0;
 
-            if (c != ' ') {
-                wordLength++;
-            }
-        }
+    for (int index = sLength - 1; index >= 0; index--) {
+      char c = s.charAt(index);
 
+      if (c == ' ' && wordLength != 0) {
         return wordLength;
+      }
+
+      if (c != ' ') {
+        wordLength++;
+      }
     }
+
+    return wordLength;
+  }
+
+  public int lengthOfLastWord2(String s) {
+    String[] words = s.trim().split("\\s+");
+
+    return words[words.length - 1].trim().length();
+  }
 }
