@@ -8,13 +8,13 @@ public class Solution {
       return x;
     }
 
-    int low = 0, high = x, mid = 0;
+    long low = 0, high = x, mid = 0;
 
     while (high - low > 1) {
       mid = (low + high) / 2;
 
       if (mid * mid == x) {
-        return mid;
+        return (int) mid;
       } else if (mid * mid < x) {
         low = mid;
       } else {
@@ -23,7 +23,7 @@ public class Solution {
     }
 
     if (mid * mid != x && high - low == 1) {
-      return ((high * high) - x) >= (x - (low * low)) ? high : low;
+      return (int) low;
     }
 
     return -1;
