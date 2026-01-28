@@ -1,0 +1,21 @@
+package MergeSortedArray;
+
+// Created by Abhinav Bhardwaj on 27/01/2026 22:50 using IntelliJ IDEA
+
+public class Solution {
+  public void merge1(int[] nums1, int m, int[] nums2, int n) {
+    for (int index = 0; index < n; index++) {
+      nums1[m + index] = nums2[index];
+    }
+
+    for (int index1 = 0; index1 < (m + n) - 1; index1++) {
+      for (int index2 = 0; index2 < (m + n) - 1; index2++) {
+        if (nums1[index2] > nums1[index2 + 1]) {
+          int temp = nums1[index2];
+          nums1[index2] = nums1[index2 + 1];
+          nums1[index2 + 1] = temp;
+        }
+      }
+    }
+  }
+}
