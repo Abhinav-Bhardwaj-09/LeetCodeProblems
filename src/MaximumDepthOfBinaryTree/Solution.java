@@ -1,22 +1,14 @@
 package MaximumDepthOfBinaryTree;
 
-/**
- * Created by IntelliJ IDEA
- * User: Abhinav Bhardwaj
- * Date: 26/02/23
- * Time: 14:02
- */
-
+// Created by Abhinav Bhardwaj on 26/02/2023 14:02 using IntelliJ IDEA
 
 public class Solution {
-    public int maxDepth(TreeNode root) {
-        if(root == null) {
-            return 0;
-        }
+  public int maxDepth(TreeNode root) {
+    if (root == null) return 0;
 
-        int leftNode = maxDepth(root.left);
-        int rightNode = maxDepth(root.right);
+    int leftNode = maxDepth(root.left);
+    int rightNode = maxDepth(root.right);
 
-        return Math.max(leftNode, rightNode) + 1;
-    }
+    return Math.max(leftNode, rightNode) + 1;
+  }
 }
