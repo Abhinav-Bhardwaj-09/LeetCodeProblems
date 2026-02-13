@@ -15,3 +15,7 @@
 
     Input: num = 0
     Output: 0
+
+## Constraints:
+
+- 0 <= num <= (2^31) - 1
