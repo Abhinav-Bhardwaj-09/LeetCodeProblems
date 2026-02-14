@@ -13,3 +13,8 @@
     Input: num1 = -10, num2 = 4
     Output: -6
     Explanation: num1 + num2 = -6, so -6 is returned.
+
+
+## Constraints:
+
+- -100 <= num1, num2 <= 100
