@@ -1,7 +1,5 @@
 package ShuffleString;
 
-import java.util.Arrays;
-
 // Created by Abhinav Bhardwaj on 25/02/2026 22:47 using IntelliJ IDEA
 
 public class Solution {
