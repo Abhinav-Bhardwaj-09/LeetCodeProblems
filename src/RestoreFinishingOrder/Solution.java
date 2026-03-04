@@ -1,12 +1,32 @@
 package RestoreFinishingOrder;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 
 // Created by Abhinav Bhardwaj on 03/03/2026 15:10 using IntelliJ IDEA
 
 public class Solution {
+
   public int[] recoverOrder(int[] order, int[] friends) {
+    HashSet<Integer> friendSet = new HashSet<>();
+    for (int friend : friends) {
+      friendSet.add(friend);
+    }
+
+    int[] result = new int[friends.length];
+    int index = 0;
+
+    for (int participantId : order) {
+      if (friendSet.contains(participantId)) {
+        result[index++] = participantId;
+      }
+    }
+
+    return result;
+  }
+
+  public int[] recoverOrder1(int[] order, int[] friends) {
     List<Integer> friendsList = new ArrayList<>(friends.length);
     for (int friendsId : friends) {
       friendsList.add(friendsId);
