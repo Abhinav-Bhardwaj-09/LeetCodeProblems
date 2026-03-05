@@ -1,30 +1,41 @@
 # Problem Statement
-    You are given an integer array order of length n and an integer array friends.
 
-    - order contains every integer from 1 to n exactly once, representing the IDs of the participants of a race in their finishing order.
+    Given a string s, calculate its reverse degree.
 
-    - friends contains the IDs of your friends in the race sorted in strictly increasing order. Each ID in friends is guaranteed to appear in the order array.
+    The reverse degree is calculated as follows:
 
-    Return an array containing your friends' IDs in their finishing order.
+    * For each character, multiply its position in the reversed alphabet ('a' = 26, 'b' = 25, ..., 'z' = 1) with its position in the string (1-indexed).
+    * Sum these products for all characters in the string.
+
+    Return the reverse degree of s.
+
 
 ## Example 1:
 
-    Input: order = [3,1,2,5,4], friends = [1,3,4]
-    Output: [3,1,4]
-    Explanation: The finishing order is [3, 1, 2, 5, 4]. Therefore, the finishing order of your friends is [3, 1, 4].
+    Input: s = "abc"
+    Output: 148
+    Explanation: | Letter | Index in Reversed Alphabet | Index in String | Product |
+                 |-------|-----------------------------|-----------------|---------|
+                 | a     | 26                          | 1               | 26      |
+                 | b     | 25                          | 2               | 50      |
+                 | c     | 24                          | 3               | 72      |
 
+                 The reversed degree is 26 + 50 + 72 = 148.
 
 ## Example 2:
 
-    Input: order = [1,4,5,3,2], friends = [2,5]
-    Output: [5,2]
-    Explanation: The finishing order is [1, 4, 5, 3, 2]. Therefore, the finishing order of your friends is [5, 2].
+    Input: s = "zaza"
+    Output: 160
+    Explanation: | Letter | Index in Reversed Alphabet | Index in String | Product |
+                 |-------|-----------------------------|-----------------|---------|
+                 | z     | 1                           | 1               | 1       |
+                 | a     | 26                          | 2               | 52      |
+                 | z     | 1                           | 3               | 3       |
+                 | a     | 26                          | 4               | 104     |
+
+                 The reverse degree is 1 + 52 + 3 + 104 = 160.
 
 ## Constraints:
 
-- 1 <= n == order.length <= 100
-- order contains every integer from 1 to n exactly once
-- 1 <= friends.length <= min(8, n)
-- 1 <= friends[i] <= n
-- friends is strictly increasing
-
+- 1 <= s.length <= 1000
+- s contains only lowercase English letters.
